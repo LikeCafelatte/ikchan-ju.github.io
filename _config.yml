@@ -1,0 +1,25 @@
+title:              Channy's Blog
+email:              channyju@example.com
+description:        A technical blog for non-major developer by Channy
+author:             ikchan ju
+baseurl:            ""
+url:                "https://ikchan-ju.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    ikchan-ju
+facebook_username:  
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
