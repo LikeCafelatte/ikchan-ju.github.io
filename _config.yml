@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 어제보다 오늘, 오늘보다 내일
+email: ikchanny@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  더 나은 개발자가 되기 위한 성장 일기
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ikchan-ju.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
