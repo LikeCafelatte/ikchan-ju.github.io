@@ -1,6 +1,7 @@
 ---
 title: 소개
 layout: home
+nav_order: 1
 ---
 
 우선 첫 게시글 작성부터 해보자.   

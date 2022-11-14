@@ -2,7 +2,7 @@
 title: 징검다리 건너기
 layout: default
 has_children: false
-nav_order: 1
+nav_order: 211
 permalink: /docs/Algorithm/Programmers
 parent: 프로그래머스
 ---
