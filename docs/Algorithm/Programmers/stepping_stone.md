@@ -1,10 +1,10 @@
 ---
-title: 프로그래머스
+title: 징검다리 건너기
 layout: default
-has_children: true
+has_children: false
 nav_order: 1
 permalink: /docs/Algorithm/Programmers
-parent: Programmers
+parent: 프로그래머스
 ---
 
 [징검다리 건너기]
