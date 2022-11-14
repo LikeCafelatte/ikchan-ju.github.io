@@ -1,0 +1,47 @@
+---
+title: 프로그래머스
+layout: default
+has_children: true
+nav_order: 1
+permalink: /docs/Algorithm/Programmers
+parent: Programmers
+---
+
+[징검다리 건너기]
+출처: 2019 개발자 겨울 인턴십   
+난이도: Lv.3   
+   
+정답 코드   
+'''
+from collections import deque
+def solution(stones, k):
+    low, high = min(stones), max(stones)
+    lists = [stones]
+    while high > low:
+        mid = (high + low) // 2
+        temp_lists = []
+        for new_list in lists:
+            temp = []
+            for stone in new_list:
+                if stone > mid:
+                    if len(temp) >= k:
+                        temp_lists.append(temp)
+                    temp = []
+                else:
+                    temp.append(stone)
+            if len(temp) >= k:
+                temp_lists.append(temp)
+            temp = []
+        if len(temp_lists) > 0:
+            high = mid
+            lists = temp_lists
+        else:
+            low = mid + 1
+    return low
+'''
+   
+문제 해설   
+레벨3 문제답게 정확성 테스트 뿐만 아니라 효율성 테스트도 포함되어있다.   
+이런 경우, 코드를 본격적으로 작성하기에 앞서 제한 사항을 잘 살펴보는 것이 중요한데, 배열의 크기가 200,000 배열의 각 원소
+
+[징검다리 건너기]: https://school.programmers.co.kr/learn/courses/30/lessons/64062/solution_groups?language=python3
