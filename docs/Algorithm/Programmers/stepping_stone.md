@@ -10,7 +10,7 @@ parent: 프로그래머스
 난이도: Lv.3   
    
 정답 코드   
-'''
+'''python
 from collections import deque
 def solution(stones, k):
     low, high = min(stones), max(stones)
