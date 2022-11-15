@@ -3,7 +3,7 @@ title: 징검다리 건너기
 layout: default
 nav_order: 211
 parent: 프로그래머스
-permalink: /docs/Algorithm/Programmers
+permalink: /docs/Algorithm/Programmers/stepping_stone
 ---
 
 [징검다리 건너기]
@@ -11,7 +11,7 @@ permalink: /docs/Algorithm/Programmers
 난이도: Lv.3   
    
 정답 코드   
-'''python
+'''python   
 from collections import deque
 def solution(stones, k):
     low, high = min(stones), max(stones)
@@ -37,7 +37,7 @@ def solution(stones, k):
         else:
             low = mid + 1
     return low
-'''
+'''   
    
 문제 해설   
 레벨3 문제답게 정확성 테스트 뿐만 아니라 효율성 테스트도 포함되어있다.   
