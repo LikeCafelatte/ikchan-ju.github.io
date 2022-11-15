@@ -2,7 +2,7 @@
 title: 징검다리 건너기
 layout: default
 nav_order: 211
-parent: 프로그래머스
+parent: Programmers
 permalink: /docs/Algorithm/Programmers/stepping_stone
 ---
 
