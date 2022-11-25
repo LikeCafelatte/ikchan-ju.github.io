@@ -2,7 +2,7 @@
 title: Programmers
 layout: default
 has_children: true
-nav_order: 21
+nav_order: 31
 # permalink: /docs/알고리즘 문제 풀이/Programmers
 parent: 알고리즘 문제 풀이
 ---
